@@ -1,0 +1,234 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CoreProjectAPI.WebApi</name>
+    </assembly>
+    <members>
+        <member name="T:CoreProjectAPI.WebApi.Controllers.CarController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CoreProjectAPI.WebApi.Controllers.CarController.#ctor(CoreProjectAPI.Core.Services.IService{CoreProjectAPI.Core.Entities.Cars})">
+            <summary>
+            
+            </summary>
+            <param name="carService"></param>
+        </member>
+        <member name="M:CoreProjectAPI.WebApi.Controllers.CarController.GetAll">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CoreProjectAPI.WebApi.Controllers.CarController.GetById(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CoreProjectAPI.WebApi.Controllers.CarController.Add(CoreProjectAPI.Core.Entities.Cars)">
+            <summary>
+            
+            </summary>
+            <param name="car"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CoreProjectAPI.WebApi.Controllers.CarController.Delete(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CoreProjectAPI.WebApi.Controllers.CarController.Update(CoreProjectAPI.Core.Entities.Cars)">
+            <summary>
+            
+            </summary>
+            <param name="car"></param>
+            <returns></returns>
+        </member>
+        <member name="T:CoreProjectAPI.WebApi.Controllers.FirmController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CoreProjectAPI.WebApi.Controllers.FirmController.#ctor(CoreProjectAPI.Core.Services.IService{CoreProjectAPI.Core.Entities.Firms})">
+            <summary>
+            
+            </summary>
+            <param name="firmService"></param>
+        </member>
+        <member name="M:CoreProjectAPI.WebApi.Controllers.FirmController.GetAll">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CoreProjectAPI.WebApi.Controllers.FirmController.GetById(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CoreProjectAPI.WebApi.Controllers.FirmController.Add(CoreProjectAPI.Core.Entities.Firms)">
+            <summary>
+            
+            </summary>
+            <param name="Firm"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CoreProjectAPI.WebApi.Controllers.FirmController.Delete(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CoreProjectAPI.WebApi.Controllers.FirmController.Update(CoreProjectAPI.Core.Entities.Firms)">
+            <summary>
+            
+            </summary>
+            <param name="Firm"></param>
+            <returns></returns>
+        </member>
+        <member name="T:CoreProjectAPI.WebApi.Controllers.JWTAuthController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CoreProjectAPI.WebApi.Controllers.JWTAuthController.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            
+            </summary>
+            <param name="config"></param>
+        </member>
+        <member name="M:CoreProjectAPI.WebApi.Controllers.JWTAuthController.Login">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:CoreProjectAPI.WebApi.Controllers.RentController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CoreProjectAPI.WebApi.Controllers.RentController.#ctor(CoreProjectAPI.Core.Services.IService{CoreProjectAPI.Core.Entities.Rents})">
+            <summary>
+            
+            </summary>
+            <param name="rentService"></param>
+        </member>
+        <member name="M:CoreProjectAPI.WebApi.Controllers.RentController.GetAll">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CoreProjectAPI.WebApi.Controllers.RentController.GetById(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CoreProjectAPI.WebApi.Controllers.RentController.Add(CoreProjectAPI.Core.Entities.Rents)">
+            <summary>
+            
+            </summary>
+            <param name="Rent"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CoreProjectAPI.WebApi.Controllers.RentController.Delete(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CoreProjectAPI.WebApi.Controllers.RentController.Update(CoreProjectAPI.Core.Entities.Rents)">
+            <summary>
+            
+            </summary>
+            <param name="Rent"></param>
+            <returns></returns>
+        </member>
+        <member name="T:CoreProjectAPI.WebApi.Controllers.RenterController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CoreProjectAPI.WebApi.Controllers.RenterController.#ctor(CoreProjectAPI.Core.Services.IService{CoreProjectAPI.Core.Entities.Renters})">
+            <summary>
+            
+            </summary>
+            <param name="renterService"></param>
+        </member>
+        <member name="M:CoreProjectAPI.WebApi.Controllers.RenterController.GetAll">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CoreProjectAPI.WebApi.Controllers.RenterController.GetById(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CoreProjectAPI.WebApi.Controllers.RenterController.Add(CoreProjectAPI.Core.Entities.Renters)">
+            <summary>
+            
+            </summary>
+            <param name="Renter"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CoreProjectAPI.WebApi.Controllers.RenterController.Delete(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CoreProjectAPI.WebApi.Controllers.RenterController.Update(CoreProjectAPI.Core.Entities.Renters)">
+            <summary>
+            
+            </summary>
+            <param name="Renter"></param>
+            <returns></returns>
+        </member>
+        <member name="T:CoreProjectAPI.WebApi.Startup">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CoreProjectAPI.WebApi.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            
+            </summary>
+            <param name="configuration"></param>
+        </member>
+        <member name="P:CoreProjectAPI.WebApi.Startup.Configuration">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CoreProjectAPI.WebApi.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:CoreProjectAPI.WebApi.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)">
+            <summary>
+            
+            </summary>
+            <param name="app"></param>
+            <param name="env"></param>
+        </member>
+    </members>
+</doc>

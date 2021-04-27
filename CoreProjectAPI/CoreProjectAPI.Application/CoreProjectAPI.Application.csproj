@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Repositories\DapperRepository.cs" />
+    <Compile Remove="Services\DapperService.cs" />
+    <Compile Remove="UoW\DapperUnitOfWork.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.78" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CoreProjectAPI.Core\CoreProjectAPI.Core.csproj" />
+  </ItemGroup>
+
+</Project>
